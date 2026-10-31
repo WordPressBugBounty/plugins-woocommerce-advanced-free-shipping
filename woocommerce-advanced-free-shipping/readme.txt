@@ -2,9 +2,9 @@
 Contributors: sormano
 Tags: woocommerce shipping, shipping, free shipping, advanced free shipping, advanced shipping
 Requires at least: 5.0
-Tested up to: 6.8
-Stable tag: 1.1.7.1
-Requires PHP: 7.0
+Tested up to: 7.1
+Stable tag: 1.2.0
+Requires PHP: 7.4
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -52,7 +52,7 @@ Not there what you're looking for? The plugin has been made to be easily extensi
 > - Create shipping zones<br />
 > - Set tax status<br />
 > <br />
-> View [Advanced Shipping for WooCommerce](http://codecanyon.net/item/woocommerce-advanced-shipping/8634573)
+> View [Advanced Shipping for WooCommerce](https://aceplugins.com/plugin/advanced-shipping-for-woocommerce/purchase)
 
 **Showing a free shipping threshold message**
 
@@ -87,7 +87,7 @@ The short answer to this is 'no', the long answer comes down to 'possibly'. I wr
 
 The current version of the plugin - 1.1.0 - doesn't have the ability to show multiple Advanced Free Shipping rates at the same time.
 During first development I made the - in hindsight - wrong decision thinking "Why would anyone need multiple WooCommerce free shipping options at the same time".
-In the future this will likely be changed, for now I recommend taking a look at the [Advanced Shipping for WooCommerce](http://codecanyon.net/item/woocommerce-advanced-shipping/8634573) plugin which does have the ability to show all rates that match the conditions.
+In the future this will likely be changed, for now I recommend taking a look at the [Advanced Shipping for WooCommerce](https://aceplugins.com/plugin/advanced-shipping-for-woocommerce/purchase) plugin which does have the ability to show all rates that match the conditions.
 
 = The shipping rates I configured are not showing at the cart/check, why? =
 
@@ -108,6 +108,15 @@ If after the above still no rate is showing it is most commonly a third party el
 4. WooCommerce Shipping condition available operators
 
 == Changelog ==
+
+= 1.2.0 - 31-10-2026 =
+
+* [Update] - PHP 8.5 compatibility
+* [Update] - Update WP Conditions to 1.0.16.1
+* [Update] - WordPress 7.1 compatibility verified
+* [Update] - WooCommerce 11.2 compatibility verified
+* [Add] - WPML support for shipping class/category condition
+* [Add] - Free shipping coupon support (use '📦' icon to indicate a free shipping coupon)
 
 = 1.1.7.1 - 07-10-2025 =
 
